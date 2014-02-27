@@ -32,3 +32,7 @@ LICENSE: This is just the license. It basically allows anyone to freely use thes
 .vim: This folder contains the extensions used for vim, such as the line numbering.
 
 RainbowDrops.epf: This file is used to change Eclipse's theme. It is a dark yet lively theme that I like. It also does *not* belong to me, and I include it only for convieniance.
+
+To install the fonts on Debian 7.0 Wheezy (which is what I'm currently using), you should extract SourceCodePro, and than move the output to /usr/share/fonts . Alternativly, if one does not have root access, you can move it to ~/.fonts . Either way, you just have to run this command afterward: sudo fc-cache -f -v . This may work without the sudo if you installed the font into ~/.fonts , but I honestly don't know. I always install it in /usr/share/fonts .
+
+
